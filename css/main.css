@@ -1,15 +1,6 @@
-/* ------------------------------------------------------------------------------
-	Template Name: Floix
-	Author: Designstub
-	Author URI: http://www.designstub.com
-------------------------------------------------------------------------------*/
-
-
 
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
-/* ------------------------------------------------------------------------------
-	 Typography
--------------------------------------------------------------------------------*/
+
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -58,9 +49,6 @@ h5 {
 .btn-large {
 	padding: 15px 40px;
 }
-/* ------------------------------------------------------------------------------
-	 General Style
--------------------------------------------------------------------------------*/
 a {
 	color: #e84545;
 }
@@ -93,9 +81,6 @@ ul li {
 	padding-right: 0;
 	padding-left: 0;
 }
-/* ==========================================================================
-	$Header
-========================================================================== */
 #header {
 	position: fixed;
 	width: 100%;
@@ -113,7 +98,7 @@ ul li {
 }
 #header .logo {
 	font-size: 27px;
-	color: #000;
+	color: #000000;
 	letter-spacing: 3px;
 	font-weight: 300;
 	float: left;
@@ -144,14 +129,14 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #808080;
+	color: #000000;
 	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 2px;
 	margin-left: 40px;
 }
 .navigation a:hover, .navigation a.active {
-	color: #262626;
+	color: #ffffff;
 }
 .nav-toggle {
 	display: none;
@@ -293,7 +278,8 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/banner1.jpg);
+	opacity: 0.8; 
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -307,15 +293,17 @@ ul li {
 }
 .banner-text {
 	padding-top: 45%;
+	opacity: 0.9;
+	visibility: visible;
 }
 .banner-text h1 {
-	color: #393939;
+	color: #ffffff;
 	font-family: "Open Sans", sans-serif;
 	font-size: 23px;
 	font-weight: 400;
 }
 .banner-text p {
-	color: #393939;
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 1.5;
